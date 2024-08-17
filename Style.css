@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+}
+.header{
+    text-align: center;
+    background-color: goldenrod;
+}
+body {margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #d6d1bb;
+    color: #333;
+}
+
+#cabeça {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 200px;
+}
+
+.logo {
+    width: 25vh;
+    height: auto;
+}
+
+#lulu {display: flex;
+    align-self: center;
+    width: auto;
+    height:5vh;
+    text-align: center;
+    align-items: center;
+}
+.papa{
+    width: 20px; 
+    background-color:rgb(255, 255, 255);
+}
+.pepe{
+    width: 50vh;
+    background-color: rgb(255, 255, 255);
+    height:25px;
+    border-radius: 15px;
+}
+.p{
+    text-align: center;
+    
+}
+#icons1{
+    
+    display: flex;
+    justify-content: space-around;
+}
+.icons2{
+    grid-row: 1 / 3;
+    grid-column:3/3;
+    
+}
+.vrumvrum {
+    height: 5vh;
+
+}
+
+.cazinha {
+    height: 5vh;
+}
+
+.pessoa {
+    height: 5vh;
+}
+
+.who{
+    height: 5vh;
+}
+
+.tilt {
+    text-align: center;
+    
+}
+
+.bubu {
+    width: 30vh;
+    margin:30px;
+}
+
+.taco {
+    width: 35vh;
+    margin:30px;
+
+}
+.taco2 {
+    width: 30vh;}
+
+.nacho {
+    width: 35vh;
+    margin:30px;
+}
+
+.drinks {
+    width: 35vh;
+    margin:30px;
+}
+.chuchu{
+    width:35vh;
+    margin:30px;
+}
+
+#comidas {
+    display: flex;
+    justify-content: space-between;
+    height: 35vh;
+}
+
+#roda {display: flex;
+    justify-items: center;
+    align-items: center;
+    background-color:goldenrod;
+    height:200px;
+    position: absolute;
+  width: 100%;
+    justify-content: space-between;
+    bottom: 0
+}
+#roda2 {display: flex;
+    justify-items: center;
+    align-items: center;
+    background-color:goldenrod;
+    height:200px;
+    position: absolute;
+  width: 100%;
+    justify-content: space-between;
+}
+.insta {
+    width: 5vh;    
+}
+
+.face {
+    width: 5vh;
+}
+
+#caca {
+    text-align: center;
+}
+
+.guagua {
+    width: 30vh;
+}
+
+.tort {
+    width: 30vh;
+}
+
+.birrito {
+    width: 30vh;
+}
+
+.chichi {
+    width: 30vh;
+}
+
+.combin {
+    width: 30vh;
+}
+
+#perfil {
+    text-align: center;
+    color: goldenrod;
+    background-color: green;
+}
+
+.Bt {
+    width: 30vh;
+}
+
+#who {
+    text-align: center;
+}
+.section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300px 300px 300px;
+    justify-content: center;
+}
+.chuchu2{width:30vh;
+}
+.drink{
+    width: 30vh;
+}
+.container {display: flex;
+    width: 300px;
+    margin: 0 auto; 
+}
+#dive{
+    display: flex;
+    justify-content: center;
+}
+h1 {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+  
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
